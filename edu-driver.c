@@ -11,6 +11,8 @@
 #include <linux/slab.h>
 #include <linux/uaccess.h>
 #include <linux/wait.h>
+#include <linux/sched/signal.h>
+
 #include "edu.h"
 
 // See https://github.com/qemu/qemu/blob/stable-7.2/docs/specs/edu.txt
